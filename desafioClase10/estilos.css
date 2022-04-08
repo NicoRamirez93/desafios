@@ -66,6 +66,11 @@ ul li a:hover {
     border-color: black;
     }
 
+.box:hover {
+    transform: scale(1.2);
+    transition: all 1.3s;
+}
+
 #imgPrincipio {
     width: 100%;
 }
