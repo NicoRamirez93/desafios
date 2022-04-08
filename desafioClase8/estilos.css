@@ -1,0 +1,148 @@
+body {
+    font-family: verdana, garamond;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+
+}
+
+header, section, footer {
+    width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 6px;
+    background-color: rgba(34, 5, 5, 0.4);
+    color: white;
+    border-radius: 25px;
+}
+
+header {
+ 	position: sticky;
+ 	top: 1;
+ 	background-color: rgba(51, 23, 23, 0.4);
+     border-radius: 25px;
+}
+a {
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+li {
+    display: inline;
+}
+
+ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size:x-large;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: rgba(83, 11, 11, 0.733);
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 360px / auto auto auto;
+    gap: 20px 60px;
+    object-fit: contain;
+  }
+  .sample {
+    width: 100%;
+    border-style:solid;
+    border-width: 10px;
+    border-color: black;
+    }
+
+#imgPrincipio {
+    width: 100%;
+}
+
+#box1 {
+width: 15%;
+float: left;
+margin-left: 15%;
+margin-right: 1%;
+}
+
+.flex-container img {
+    width: 30%;
+}
+
+#box2 {
+    width: 70%;
+    height: 200px;
+    font-size: 1.2em;
+    text-align: justify;
+    background-color: transparent;
+}
+
+#imagenes {
+    background-color: rgba(136, 56, 56, 0.383);
+}
+
+.preview {
+    width: 25%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-style:solid;
+    border-width: 8px;
+    border-color: black;
+    border-radius: 15px;
+}
+
+#nosotrosymedia {
+    background-color: rgba(136, 56, 56, 0.383);
+}
+
+footer {
+    background-color: rgba(136, 56, 56, 0.383);
+    border-radius: 10px;
+    height: 55px;
+}
+
+#nosotrosymedia p{
+    width: 60%;
+    font-size: larger;
+}
+
+#nosotrosymedia iframe {
+    width: 40%;
+    min-height: 170px;
+    max-height: 220px;
+}
+
+.icono {
+    width: 4%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 3px;
+    float: right;
+}
+
+.menu {
+    background-image: url(imagenes/grey-background.jpg);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h5 {
+    text-shadow: 3px;
+    font-size: x-large;
+
+}
