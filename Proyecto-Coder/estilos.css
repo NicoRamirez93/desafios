@@ -1,0 +1,137 @@
+body {
+    font-family: verdana, garamond;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+
+}
+
+header, section, footer {
+    width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 6px;
+    color: white;
+    border-radius: 25px;
+}
+
+.col {
+    text-align: justify;
+}
+
+.carousel-inner img {
+    margin-left: 280px;
+  }
+
+header {
+ 	position: sticky;
+ 	top: 1;
+ 	background-color: rgba(51, 23, 23, 0.4);
+     border-radius: 25px;
+}
+a {
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+li {
+    display: inline;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size:x-large;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: rgba(83, 11, 11, 0.733);
+    color: white;
+}
+
+#imgPrincipio {
+    width: 40%;
+    float: right;
+    border-radius: 15px;
+}
+
+#imagenes #fotos{
+    background-color: rgba(136, 56, 56, 0.383);
+}
+
+.preview {
+    width: 25%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+#nosotrosymedia {
+    background-color: rgba(136, 56, 56, 0.383);
+    border-radius: 15px;
+    font-size: medium;
+}
+
+footer {
+    background-color: rgba(136, 56, 56, 0.383);
+    border-radius: 10px;
+    height: 55px;
+}
+
+#nosotrosymedia p{
+    width: 60%;
+    font-size: larger;
+}
+
+#nosotrosymedia iframe {
+    width: 40%;
+    min-height: 170px;
+    max-height: 220px;
+}
+
+.icono {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 3px;
+    float: right;
+}
+
+#fotos {
+    background-color: rgba(136, 56, 56, 0.383);
+}
+
+.galeria-img {
+    width: 70%;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.form-label {
+    text-align: center;
+}
+
+.mb-3 {
+    width: 40%;
+}
