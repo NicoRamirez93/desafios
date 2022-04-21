@@ -1,0 +1,25 @@
+header {
+  background-color: rgb(35, 125, 125);
+  width: 80%;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin: 10px;
+}
+header nav ul li a {
+  background-color: rgb(19, 70, 9);
+  font-size: xx-large;
+  color: white;
+}
+@media screen and (max-width: 460px) {
+  header {
+    background-color: purple;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
