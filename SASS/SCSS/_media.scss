@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+    .flex-container {
+        li {
+            a {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+        }
+    }
+    .container {
+        .row {
+            .col {
+                text-align: justify;
+                margin-left: 50px;
+                #imgPrincipio {
+                    width: 150%;
+                    float: left;
+                }
+            
+            }
+        }
+    }
+    #imagenes {
+        .row {
+            .col {
+                #carouselExampleControls {
+                    width: 100%;
+                    .carousel-inner {
+                        .carousel-item {
+                            width: 140%;
+                            img {
+                                margin-left: 10%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .container {
+        .row {
+            #nosotrosymedia {
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+  }

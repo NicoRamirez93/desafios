@@ -1,0 +1,14 @@
+#nosotrosymedia {
+    border-radius: 15px;
+    font-size: medium;
+    p {
+        width: 60%;
+        font-size: larger;
+        text-align: justify;
+    }
+    iframe {
+        width: 40%;
+        min-height: 170px;
+        max-height: 220px;
+    }
+}

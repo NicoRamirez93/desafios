@@ -1,0 +1,19 @@
+@mixin asd {
+    color: black;
+    font-size: large;
+}
+
+.boton {
+    @include asd;
+    border-radius: 60px;  
+}
+.boton--enviar {
+    @extend .boton;
+    background-color: rgba($color: #6b0606, $alpha: 1.0);
+}
+.boton--donar {
+    @extend .boton;
+    background-color: #006818;
+    border-color: #006818;
+    margin-left: 10%;
+}

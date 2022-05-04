@@ -1,0 +1,15 @@
+$mapa:(
+    bordes:25px,
+    color:rgba(136, 56, 56, 0.383)
+    );
+
+$borde: map-get($mapa, bordes);
+$colorbox: map-get($mapa, color);
+
+header, section, footer {
+    border-radius: $borde;
+}
+
+#imagenes, #fotos, header, footer, #nosotrosymedia{
+    background-color: $colorbox;
+}
