@@ -38,12 +38,21 @@
         }
     }
 
-    .container {
+    .container-fluid {
         .row {
-            #nosotrosymedia {
+            .nosotrosymedia {
+                margin-right: 45%;
+                float: left;
+                padding-right: 50%;
                 p {
+                    margin-top: 3%;
+                    width: 260%;
                     text-align: justify;
+                    font-size: medium;
                 }
+            }
+            .spoty {
+                margin-left: 0%;
             }
         }
     }
